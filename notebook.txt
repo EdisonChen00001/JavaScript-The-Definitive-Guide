@@ -1,0 +1,33 @@
+P4
+1.1 Core JavaScript 
+Numbers, String, Boolean, Null, Underfined, Objects, Array
+
+--> typeof returns: "number," "string," "boolean," "object," "function," and "undefined."
+
+p7
+function abs(x){
+    if(x>=0){
+        return x;
+    }
+    else {
+        return -x;
+    }
+}
+
+function factorial(n){
+    var product = 1;
+    while(n>1){
+        product *= n;
+        n--; 
+    }
+    return product;
+}
+>>>factorial(4)                // >>>24:1*4*3*2
+
+function factorial2(n){
+    var i, product = 1;
+    for(i=1; i<=n; i++)
+        product *=i;
+    return product;
+}
+>>>factorial2(5)               // >>>120:1*2*3*4*5
