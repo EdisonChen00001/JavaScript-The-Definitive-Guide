@@ -40,3 +40,16 @@ xyz.getDate()
 xyz.getDay()      0 is Sunday
 xyz.getHours()
 xyz.getUTCHours()  is time zone     
+
+3.2.3
+var s = "hello, world"
+s.charAt(0)             // 'h'
+s.charAt(s.length-1)    // 'd'
+s.substring(1,4)        //ell
+s.slice(-3)             //'rld'
+s.indexOf('l')         // 2
+s.indexOf('l',3)       // 3
+s.lastIndexOf('l')      // 10
+s.split(',')            //['hello','world']
+s.replace('h', 'H')     // "Hello world"
+s.toUpperCase()         //"HELLO, WORLD"
