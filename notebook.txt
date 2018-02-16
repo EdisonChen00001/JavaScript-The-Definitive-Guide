@@ -31,3 +31,12 @@ function factorial2(n){
     return product;
 }
 >>>factorial2(5)               // >>>120:1*2*3*4*5
+
+chapter 3 
+new Date();
+xyz.getFullYear()
+xyz.getMonth()    0 is start not 1
+xyz.getDate()
+xyz.getDay()      0 is Sunday
+xyz.getHours()
+xyz.getUTCHours()  is time zone     
